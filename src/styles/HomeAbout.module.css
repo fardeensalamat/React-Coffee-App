@@ -1,0 +1,41 @@
+
+.about{
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.about h1{
+    color: #5c3d2e;
+}
+
+.text{
+  font-size: 1.1rem;
+  color: #4a4a4a;
+  line-height: 1.6;
+  text-align: justify;
+}
+
+.buttonWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; 
+ 
+}
+
+.about button{
+    background-color: #1e1e1e;
+    color: rgb(201, 124, 9);
+    padding: 10px 50px;
+    font-size: 18px;
+    box-shadow: -4px 4px 8px rgba(0, 0, 0, 0.1);
+    border: none;    
+}
+
+.about button:hover{
+  background-color: rgb(201, 124, 9);
+  color: white; 
+  transform: scale(1.05); 
+  transition: all 0.3s ease; 
+}

@@ -1,0 +1,59 @@
+.tableParent{
+
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin-right: 5px;
+    margin-top: 40px;
+}
+
+.trashButton{
+    background-color: white;
+    color: red;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+
+  .quantityBtn{
+    background-color: #ffffff;
+   
+    border:none;
+    padding: 4px 1px;
+    margin: 0 4px;
+    border-radius: 100px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .quantityBtn:hover{
+    background-color: #ddd;
+  }
+  
+  .quantityBtn:disabled{
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  .emptyCart{
+    text-align: center;
+    color: rgb(172, 159, 159);
+  }
+
+  .textMain{
+    display: flex;
+    justify-content: center;
+  }
+  .text1{
+    color: rgb(0, 0, 0);
+   
+    text-align: center;
+  }
+  .text2{
+    color: rgb(236, 77, 77);
+   
+    text-align: center;
+  }
+
+
+ 

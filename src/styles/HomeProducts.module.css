@@ -1,0 +1,53 @@
+
+.products{
+    padding: 60px 0;
+    background-color: #fdf4d6;
+    text-align: center;
+  }
+
+.products h1{
+  
+    text-align: center;
+    color: #5c3d2e;
+    margin-bottom: 25px;
+  }
+
+ .products img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.card{
+    background-color: #d8c3a5;
+    border-radius: 12px;
+    padding: 20px;
+    margin-top: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+   
+  }
+  
+.card:hover{
+   
+    transform: scale(1.03);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    
+  }
+   
+.card h4{
+    margin-top: 5px;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #473126;
+    
+  }
+  
+.card p{
+    color: rgb(114, 68, 7);
+    font-size: 0.95rem;
+    font-weight: 400; 
+  }
+  

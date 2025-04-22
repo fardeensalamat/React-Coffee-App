@@ -1,0 +1,18 @@
+.storeSection {
+    background-color: #f7f3ef; 
+    padding: 60px 0;
+  }
+  
+  .heading {
+    font-size: 2rem;
+    color: #5c3d2e; 
+    margin-bottom: 20px;
+  }
+  
+  .description {
+    font-size: 1.1rem;
+    color: #4a4a4a;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  

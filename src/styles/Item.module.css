@@ -1,0 +1,7 @@
+.image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover; /* keeps aspect ratio without stretching */
+    border-radius: 10px; /* optional: for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* optional: adds subtle shadow */
+  }
